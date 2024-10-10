@@ -1,0 +1,70 @@
+.impact {
+  padding: 50px;
+  background-color: #fff; /* Set the background color to white */
+  text-align: center;
+  font-family: 'Arial', sans-serif; /* Add a clean font family */
+  position: relative;
+}
+
+.impact h2 {
+  font-size: 3rem;
+  color: #ff7141; /* Orange color for the main heading */
+  margin-bottom: 10px;
+}
+
+.impact p {
+  font-size: 1.5rem;
+  color: #ff7141; /* Consistent orange color for the subheading */
+  margin-bottom: 40px;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three items in a row */
+  gap: 40px; /* Larger gap between the items */
+  max-width: 1200px;
+  margin: 0 auto; /* Center the grid */
+}
+
+.impact-item {
+  background-color: #fff;
+  border: 2px solid #ff7141; /* Orange border matching the design */
+  padding: 30px;
+  border-radius: 15px; /* Rounded corners */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.impact-item:hover {
+  transform: translateY(-10px); /* Small lift effect on hover */
+}
+
+.impact-item:before {
+  content: '\25BC'; /* Downward arrow icon */
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ff7141; /* Icon color */
+  font-size: 1.5rem;
+}
+
+.impact-item h3 {
+  font-size: 1.25rem;
+  color: #ff7141; /* Orange text for titles */
+  margin-bottom: 10px;
+}
+
+.impact-item p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+  .impact-grid {
+      grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+  }
+}

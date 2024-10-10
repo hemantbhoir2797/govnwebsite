@@ -1,0 +1,164 @@
+.site_footer {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  border-top: 2px solid #ff7141;
+}
+
+/* First Section: Subscribe Newsletter */
+.footer_sec1 {
+  background-color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.heading_mini {
+  font-size: 1.8rem;
+  color: #ff7141;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.sub_form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 70%;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #ff7141;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e06335;
+}
+
+/* Second Section: Quick Links & Donate */
+.footer_sec2_col2, .footer_sec2_col3 {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer_sec2_col2 a, .footer_sec2_col3 a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.footer_sec2_col2 a:hover, .footer_sec2_col3 a:hover {
+  color: #ff7141;
+}
+
+.donate_now_btn {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.donate_now_btn h2 {
+  font-size: 1.5rem;
+  color: #ff7141;
+  margin-bottom: 10px;
+}
+
+.btn09_sm {
+  background-color: #ff7141;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn09_sm:hover {
+  background-color: #e06335;
+}
+
+/* Third Section: Follow */
+.footer_sec2_col3 {
+  margin-top: 20px;
+}
+
+.f_sos a {
+  color: #ff7141;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.f_sos a:hover {
+  transform: scale(1.2);
+}
+
+/* Copyright Section */
+.footer_sec3 {
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  color: #333;
+}
+
+.footer_sec3 a {
+  color: #ff7141;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.footer_sec3 a:hover {
+  text-decoration: underline;
+}
+
+/* Clearfix for floating elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .footer_sec1 {
+      padding: 10px 0;
+  }
+
+  .footer_sec2_col2 a, .footer_sec2_col3 a {
+      font-size: 1rem;
+  }
+
+  .f_sos a {
+      font-size: 1.2rem;
+      margin: 0 5px;
+  }
+
+  .form-control {
+      width: 65%;
+  }
+
+  .btn {
+      width: 30%;
+  }
+
+  .btn09_sm {
+      font-size: 0.8rem;
+      padding: 6px 10px;
+  }
+}
